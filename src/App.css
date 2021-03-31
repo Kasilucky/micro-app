@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+h1 {
+  margin: 20px 10px;
+}
+#openModal {
+  border: 1px solid rgb(80, 78, 78);
+  padding: 3px 3px 3px 3px !important;
+}
+
+#openModal:hover {
+  cursor: pointer;
+  box-shadow: 0px 20px 20px 0px rgba(33, 33, 33, 0.2);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
